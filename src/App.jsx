@@ -1,18 +1,29 @@
-import './App.css'
-import Home from "./components/Home.jsx" ;
-import Navbar from "./components/Navbar.jsx" ;
-import React from 'react'
+import React from 'react' ;
+import './App.css' ;
+import About from "./components/About" ;
+import Education from "./components/Education" ;
+import Project from "./components/Project";
+import Home from "./components/Home" ;
+import Contact from "./components/Contact" ;
+import Navbar from "./components/Navbar" ;
 
 function App() {
 
   return (
     <> 
-       <Navbar/>
-       <main>
-        <Routes>
-           <Route path = "/" element ={<Home/>} ></Route>
-        </Routes>  
-       </main>       
+       <div className="relative z-0 bg-primary ">
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+          <Navbar />
+          <Home />
+        </div>
+        <About />
+        <Education />
+        <Project />
+        <div className="relative z-0">
+          <Contact />
+          {/* <StarsCanvas /> */}
+        </div>
+      </div> 
     </>
   )
 }

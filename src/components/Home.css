@@ -1,0 +1,25 @@
+
+@import "tailwindcss";
+
+.violet-gradient {
+  background: #804dee;
+  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+  background: -webkit-linear-gradient(-90deg,
+      #804dee 0%,
+      rgba(60, 51, 80, 0) 100%);
+}
+
+.bg-color-image::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* semi-transparent overlay */
+}
+.bg-color-image {
+  width: 100%;
+  height: 100vh; 
+  background-image: url("https://raw.githubusercontent.com/harshitG5180/HarshitPortfolio/main/src/assets/herobg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;      
+  background-position: center; 
+}
