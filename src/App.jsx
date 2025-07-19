@@ -3,7 +3,8 @@ import './App.css' ;
 import About from "./components/About" ;
 import Education from "./components/Education" ;
 import Project from "./components/Project";
-import { default as Home } from "./components/Home";import Contact from "./components/Contact" ;
+import { default as Home } from "./components/Home";
+import Contact from "./components/Contact" ;
 import Navbar from "./components/Navbar" ;
 
 function App() {
