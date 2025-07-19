@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Download, Linkedin, Github, Phone, Mail } from "lucide-react";
 import { SiLeetcode } from "react-icons/si";
 import "./Home.css" ;
-// import ComputersCanvas from "./canvas/Computer";
+import ComputersCanvas from "./canvas/Computer";
 
 const Home = () => {
   return (
@@ -31,20 +31,20 @@ const Home = () => {
 
               <button className="bg-white hover:bg-[#915EFE] text-black font-bold py-2 px-4 rounded mt-5 mb-5 text-[20px] flex items-center " type="button">
                 <Download className="w-6 h-6" />
-                <Link to="">Resume</Link>
+                <Link to="https://drive.google.com/file/d/1b-5eB5XDNGRifYhfsZzKqdjg-Xg5Nbj4/view?usp=sharing" target="_blank">Resume</Link>
               </button>
 
               <div className="flex space-x-4 mt-2">
-                <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank" rel="noopener noreferrer" className="bg-blue-500 p-1 rounded-full" >
+                <a href="https://www.linkedin.com/in/sandeep-parmar-076b15292/" target="_blank" rel="noopener noreferrer" className="bg-blue-500 p-1 rounded-full" >
                   <Linkedin className="w-6 h-6 " />
                 </a>
-                <a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer" className="bg-white text-black p-1 rounded-full">
+                <a href="https://github.com/sandeeparmar" target="_blank" rel="noopener noreferrer" className="bg-white text-black p-1 rounded-full">
                   <Github className="w-6 h-6 hover:text-[#915EFF]" />
                 </a>
                 <a href="tel:+919424572893" className="bg-white text-black p-1 rounded-full">
                   <Phone className="w-6 h-6 hover:text-[#915EFF]" />
                 </a>
-                <a href="https://leetcode.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer" className="bg-white text-amber-500 p-1 rounded-full" >
+                <a href="https://leetcode.com/u/Sunni9424/" target="_blank" rel="noopener noreferrer" className="bg-white text-amber-500 p-1 rounded-full" >
                   <SiLeetcode className="w-6 h-6 hover:text-[#915EFF]" />
                 </a>
                 <a href="mailto:sandeepparmard5656@gmail.com" className="bg-white text-black p-1 rounded-full">
@@ -57,7 +57,7 @@ const Home = () => {
 
         {/* Keyboard Picture */}
         <div className="w-7/10 h-screen hidden lg:block ">
-          {/* <ComputersCanvas /> */}
+          <ComputersCanvas />
         </div>
       </div>
     </div>
