@@ -20,29 +20,22 @@ const About = () => {
         </p>
 
        <div className='flex flex-wrap gap-3 mt-8'>
-          <span className='bg-blue-500 text-white px-4 py-2 rounded-full text-sm font-medium shadow-md hover:bg-blue-800 transition-transform  duration-200'>
+          <span className='bg-blue-500 text-white px-4 py-2 rounded-full text-sm font-medium shadow-md hover:bg-blue-700 hover:scale-105 transition-all duration-300 cursor-pointer'>
             Computer Science
           </span>
 
-          <span className='bg-green-500 text-white px-4 py-2 rounded-full text-sm font-medium shadow-md hover:bg-green-600 transition-colors duration-200'>
+          <span className='bg-green-500 text-white px-4 py-2 rounded-full text-sm font-medium shadow-md hover:bg-green-700 hover:scale-105 transition-all duration-300 cursor-pointer'>
             MERN Stack
           </span>
 
-          <span className='bg-purple-500 text-white px-4 py-2 rounded-full text-sm font-medium shadow-md hover:bg-purple-600 transition-colors duration-200'>
+          <span className='bg-purple-500 text-white px-4 py-2 rounded-full text-sm font-medium shadow-md hover:bg-purple-700 hover:scale-105 transition-all duration-300 cursor-pointer'>
             DSA
           </span>
 
-          <span className='bg-indigo-500 text-white px-4 py-2 rounded-full text-sm font-medium shadow-md hover:bg-indigo-600 transition-colors duration-200'>
+          <span className='bg-indigo-500 text-white px-4 py-2 rounded-full text-sm font-medium shadow-md hover:bg-indigo-700 hover:scale-105 transition-all duration-300 cursor-pointer'>
             SDE Roles
           </span>
         </div>
-
-        <div className="max-w-sm mx-auto mt-10 p-6 bg-white rounded-xl shadow-md border border-gray-200 
-                hover:bg-blue-100 hover:scale-105 transition-all duration-300 ease-in-out">
-        <h2 className="text-xl font-semibold mb-2">Hover Me!</h2>
-        <p className="text-gray-600">This container scales and changes background color on  hover.</p> 
-        </div>
-
 
        </div>
     </div>
