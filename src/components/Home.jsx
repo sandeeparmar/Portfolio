@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { Download, Linkedin, Github, Phone, Mail } from "lucide-react";
 import { SiLeetcode } from "react-icons/si";
 import "./Home.css" ;
-import ComputersCanvas from "./canvas/Computer";
 
 const Home = () => {
   return (
@@ -54,10 +53,7 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Keyboard Picture */}
-        <div className="w-7/10 h-screen hidden lg:block ">
-          <ComputersCanvas />
-        </div>
+        
       </div>
     </div>
   );

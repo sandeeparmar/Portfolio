@@ -6,6 +6,7 @@ import Project from "./components/Project";
 import Home from "./components/Home" ;
 import Contact from "./components/Contact" ;
 import Navbar from "./components/Navbar" ;
+import Technologies from './components/Technologies';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
           <Home />
         </div>
         <About />
+        <Technologies/>
         <Education />
         <Project />
         <div className="relative z-0">
