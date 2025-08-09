@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import {  Menu, X } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
-  
+  const navigate = useNavigate() ;
   
 
   const toggleMenu = () => {
@@ -18,6 +19,7 @@ const Navbar = () => {
   const handleNavClick = (section) => {
     setActiveSection(section.toLowerCase());
     closeMenu();
+    navigate(section) ;
   };
   
  
@@ -44,13 +46,13 @@ const Navbar = () => {
                 {navItems.map((item) => (
                   <a
                     key={item}
-                    href={`#${item.toLowerCase()}`}
+                    href={`/${item.toLowerCase()}`}
                     className={`px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 relative group ${
                       activeSection === item.toLowerCase()
                         ? 'text-blue-400 bg-white/10'
                         : 'text-white hover:text-blue-300 hover:bg-white/5'
                     }`}
-                    onClick={() => handleNavClick(item) }
+                    onClick={() =>{ handleNavClick(item) }}
                   >
                     {item}
                     {/* Active indicator */}
