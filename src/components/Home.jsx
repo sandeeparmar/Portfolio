@@ -29,7 +29,7 @@ const Home = () => {
 
               <button className="bg-white hover:bg-[#915EFE] text-black font-bold py-2 px-4 rounded mt-5 mb-5 text-[20px] flex items-center " type="button">
                 <Download className="w-6 h-6" />
-                <Link to="https://drive.google.com/file/d/1b-5eB5XDNGRifYhfsZzKqdjg-Xg5Nbj4/view?usp=sharing" target="_blank">Resume</Link>
+                <Link to="https://drive.google.com/file/d/1uW7Es4msOdfaazY6aO6jJG7cjycsd-_e/view?usp=sharing" target="_blank">Resume</Link>
               </button>
 
               <div className="flex space-x-4 mt-2">

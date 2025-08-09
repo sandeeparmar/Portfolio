@@ -1,5 +1,4 @@
 import React from 'react';
-import { Mail, Phone, MapPin, ExternalLink, Copy, Check } from 'lucide-react';
 import ContactInfo from './ContactInfo';
 
 
