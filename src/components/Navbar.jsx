@@ -1,13 +1,10 @@
 import React, { useState } from 'react';
 import {  Menu, X } from 'lucide-react';
-import Home from './Home';
-import About from './About';
-import Project from './Project' ;
-import  Contact  from './Contact';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
+  
   
 
   const toggleMenu = () => {
