@@ -41,9 +41,9 @@ export default function Contact() {
       iconColor: 'text-purple-400',
       bgColor: 'bg-purple-500/20',
       label: 'Location',
-      value: 'San Francisco, CA',
-      copyText: 'San Francisco, CA',
-      href: 'https://maps.google.com/?q=San Francisco, CA'
+      value: 'Indore , M.P',
+      copyText: 'Indore ,M.p',
+      href: 'https://www.google.com/maps/place/Institute+of+Engineering+%26+Technology,+DAVV/@22.6810145,75.8753629,17z/data=!4m10!1m2!2m1!1siet+davv+indore!3m6!1s0x3962fcc03e36712d:0xb6f3c2bf734a7c!8m2!3d22.6811529!4d75.8797821!15sCg9pZXQgZGF2diBpbmRvcmWSAQNpdXSqATcQATIeEAEiGuAoM4pQQwfvClRMmZdFDBu5hLttyedIOvM6MhMQAiIPaWV0IGRhdnYgaW5kb3Jl4AEA!16zL20vMDg3Mjlo?entry=ttu&g_ep=EgoyMDI1MDgwNi4wIKXMDSoASAFQAw%3D%3D'
     }
   ];
 
